@@ -1,0 +1,18 @@
+/* HEADER */
+header{width: 100%;height: 100vh;overflow: hidden;position: relative;}
+
+.img-wrapper{width: 100%;height: 100%;overflow: hidden; background: var(--black);}
+.img-wrapper img{width: 100%;height: 100%;object-fit: cover;opacity: .35;}
+.img-wrapper img{animation: zoom 25s;}
+@keyframes zoom{0%{transform: scale(1.3);}100%{transform: scale(1);}}
+.info-banner{position:absolute;top:30%;left:15%;}
+.info-banner h1{font-family: var(--font-primary);font-size: 3.5rem;font-weight: 300;}
+.info-banner h1{text-shadow: var(--text-shadow); animation: moveBanner 1s .7s forwards;opacity: 0;}
+.info-banner h1 span{color: var(--roxo-light2);}
+.info-banner h1{color: #fff;margin-bottom: 1rem;}
+.info-banner p{font-family: var(--font-secondary);font-size: 2rem;color: #fff;margin-bottom: 1rem;}
+.info-banner p{text-shadow: var(--text-shadow); animation: moveBanner 1s 1s forwards;opacity: 0;}
+.btn-gd-roxo{ animation: moveBanner 1s 1.3s forwards;opacity: 0;color: var(--white);background: var(--roxo-gradente);}
+.btn-gd-roxo:hover{box-shadow: 0 0 20px rgba(255,255,255,.4);}
+@keyframes moveBanner{0%{transform: translateY(10rem) rotateY(-30deg);}
+    100%{transform: translateY(0) rotateY(0);opacity: 1;}}

@@ -1,0 +1,15 @@
+/* GERAL */
+.container{}
+.ancora-topo{font-size: 3rem;color: var(--roxo-light);position: fixed;right: 1.5rem;top: 85vh;}
+.ancora-topo-hover:hover{box-shadow: 0 0 20px rgba(185, 121, 228, .7); border-radius: 100%;}
+/* BOTÕES */
+.btn{border: none;background: none;cursor: pointer;transition: ease .7s; font-family: var(--font-action);}
+.btn{color: var(--white);text-transform: uppercase;border-radius: 5px;}.btn-block{width:100%; display:block;}
+.btn-p{padding: .5rem 1rem;}.btn-m{padding: .7rem 2rem;}
+.btn-g{padding: 1rem 3rem;}
+.btn-gd-orange{color: var(--white);background: var(--orange-gradente);}
+.btn-roxo{color: var(--white);background: var(--roxo);}.btn-roxo:hover{background: var(--roxo-light);}
+.btn-orange{color: var(--white);background: var(--orange);}
+.btn-orange:hover{background: var(--orange-light);}
+.btn-roxo-light{color: var(--white);background: var(--roxo-light); text-transform: capitalize;}
+.btn-roxo-light:hover{box-shadow: 0 0 20px rgba(255,255,255,.4);}

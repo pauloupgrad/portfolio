@@ -1,0 +1,28 @@
+/* RODAPE */
+.rodape{width: 100%;padding: 3rem;background-color: var(--roxo);color: var(--white);}
+.rodape{font-family: var(--font-action);display: flex;justify-content: space-evenly;}
+.rodape{align-items: center; border-top: .3rem solid var(--roxo-light); font-size: 1.1rem;}
+.rodape a{color: var(--orange);text-decoration: underline;}
+.rodape .m-social{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;    
+}
+.m-social a{
+    width: 40px;
+    height: 40px;
+    background: var(--roxo-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    text-decoration: none;
+    color: var(--white);
+}
+.m-social a:hover{
+    background: var(--white);
+    color: var(--roxo-light);
+}
+.m-social a i{    
+    font-size: 1.5rem;
+}

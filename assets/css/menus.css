@@ -1,0 +1,18 @@
+/* FULL MENU */
+.full-menu{position: fixed;top: 0;left: 0;width: 100%;display: flex;padding: 1.1rem 10%;} 
+.full-menu{justify-content: space-between;align-items: center;background: rgba(185, 121, 228, .2);}
+.full-menu .logo a{font-size: 2rem;color: var(--white);font-family: var(--font-primary);font-weight: 300;}
+.full-menu ul{display: flex;justify-content: space-between;width: 60%;}
+.full-menu .link-item{font-family: var(--font-action);color: var(--white);font-size: 1.1rem;font-weight: 300;}
+.full-menu .link-item:hover{color: var(--roxo-light2);}
+
+/* RESPONSIVE MENU */
+.responsive-menu{
+    width:20rem;
+    height: 100vh;
+    background-color: var(--white);
+    position: fixed;
+    right: 0;
+    top: 0;
+    display: none;
+}
