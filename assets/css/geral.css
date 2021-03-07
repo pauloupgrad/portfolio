@@ -1,6 +1,6 @@
 /* GERAL */
 .container{}
-.ancora-topo{font-size: 3rem;color: var(--roxo-light);position: fixed;right: 1.5rem;top: 85vh;}
+.ancora-topo{z-index: 10;font-size: 3rem;color: var(--roxo-light);position: fixed;right: 1.5rem;top: 85vh;}
 .ancora-topo-hover:hover{box-shadow: 0 0 20px rgba(185, 121, 228, .7); border-radius: 100%;}
 /* BOTÕES */
 .btn{border: none;background: none;cursor: pointer;transition: ease .7s; font-family: var(--font-action);}

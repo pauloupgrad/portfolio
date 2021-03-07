@@ -14,6 +14,36 @@
 <body>
 
    <div class="container">
+        <!-- Menu Hamburguer -->
+        <div class="hamburguer">
+                <div class="line" id="line1"></div>
+                <div class="line" id="line2"></div>
+                <div class="line" id="line3"></div>
+                <span>Fechar</span>
+        </div><!-- Fim Menu Hamburguer -->
+
+        <!-- Menu Lateral -->
+        <div id="sidebar" class="sidebar">
+            <nav class="responsive-menu">
+                <ul> 
+                    <li class="menu-item"><a class="menu-link" href="#home">Home</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#sobre">Sobre</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#conhecimento">Conhecimentos</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#servicos">Serviços</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#block">Blog</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#contato">Contato</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#orcamento">Orçamento</a></li>
+                </ul>
+            </nav>
+            <!-- Social media -->
+            <div class="social-media">                
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-github-alt"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>              
+            </div><!-- Fim Social Media -->
+        </div><!-- Fim Menu Lateral -->
+        
         <header id="home">
             <div class="img-wrapper">
                 <img src="assets/images/bg-02.jpg" alt="Foto do hero cabeçalho">
@@ -23,30 +53,19 @@
                     <a href="#home">Paulo Feltz Pinheiro</a>
                 </div>
                 <ul> 
-                    <li><a class="link-item" href="#">Home</a></li>
-                    <li><a class="link-item" href="#">Sobre</a></li>
-                    <li><a class="link-item" href="#">Conhecimentos</a></li>
-                    <li><a class="link-item" href="#">Serviços</a></li>
-                    <li><a class="link-item" href="#">Blog</a></li>
-                    <li><a class="link-item" href="#">Contato</a></li>
-                    <li><a class="btn btn-p btn-roxo-light" href="#">Orçamento</a></li>
-                </ul>
-            </nav>
-            <nav class="responsive-menu">
-                <ul> 
-                    <li><a class="link-item" href="#">Home</a></li>
-                    <li><a class="link-item" href="#">Sobre</a></li>
-                    <li><a class="link-item" href="#">Conhecimentos</a></li>
-                    <li><a class="link-item" href="#">Serviços</a></li>
-                    <li><a class="link-item" href="#">Blog</a></li>
-                    <li><a class="link-item" href="#">Contato</a></li>
-                    <li><a class="btn btn-p btn-roxo-light" href="#">Orçamento</a></li>
+                    <li><a class="link-item" href="#home">Home</a></li>
+                    <li><a class="link-item" href="#sobre">Sobre</a></li>
+                    <li><a class="link-item" href="#conhecimento">Conhecimentos</a></li>
+                    <li><a class="link-item" href="#servicos">Serviços</a></li>
+                    <li><a class="link-item" href="#blog">Blog</a></li>
+                    <li><a class="link-item" href="#contato">Contato</a></li>
+                    <li><a class="btn btn-p btn-roxo-light" href="#orcamento">Orçamento</a></li>
                 </ul>
             </nav>
             <div class="info-banner">
                 <h1><span>Web Developer</span><br/> Front End Designer<br/> & <span>Full Stack</span></h1>
                 <p>Paulo Feltz Pinheiro</p>          
-                <button class="btn btn-gd-roxo btn-g">Saiba mais</button>
+                <button href="#servicos" class="btn btn-gd-roxo btn-g">Saiba mais</button>
             </div>
         </header>
         <div class="content"></div>
@@ -54,12 +73,12 @@
                 <small>2010 - 2021 &copy;Portfólio - Todos os direitos reservados</small>
                 <div>
                     Desenvolvido por: <a href="#sobre">Paulo Feltz Pinheiro</a><br/>
-                    <span class="m-social">
+                    <div class="m-social">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-github-alt"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
-                    </span>
+                    </div>
                 </div>
                 <div class="agradecer">    
                     <span>Photo by <a href="https://unsplash.com/@davidschultz?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">David Schultz</a> on <a href="https://unsplash.com/s/photos/developer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span><br/>
