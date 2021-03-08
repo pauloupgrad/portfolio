@@ -1,5 +1,5 @@
 /* GERAL */
-.container{}
+/* .container{} */
 .ancora-topo{z-index: 10;font-size: 3rem;color: var(--roxo-light);position: fixed;right: 1.5rem;top: 85vh;}
 .ancora-topo-hover:hover{box-shadow: 0 0 20px rgba(185, 121, 228, .7); border-radius: 100%;}
 /* BOTÕES */
@@ -13,3 +13,29 @@
 .btn-orange:hover{background: var(--orange-light);}
 .btn-roxo-light{color: var(--white);background: var(--roxo-light); text-transform: capitalize;}
 .btn-roxo-light:hover{box-shadow: 0 0 20px rgba(255,255,255,.4);}
+/* COLOR ICONS CONHECIMENTOS */
+.html5{color: var(--html5);}.css3{color: var(--css3);}.js{color: var(--js);}
+.design{color: var(--design);}.php{color: var(--php);}.python{color: var(--python);}
+
+/* SESSAO HEADER */
+.sessao-header h1{
+    font-family: var(--font-primary);
+    font-weight: 300;
+    font-size: 3rem;
+    color: var(--roxo-light2);    
+    padding-bottom: 5rem;
+    margin-bottom: 1.5rem;
+    
+}
+.sessao-header{    
+    position: relative;
+}
+.sessao-header:before{
+    content: "";
+    width: 200px;
+    height: 5px;
+    background: var(--roxo-light2);
+    position: absolute;
+    bottom: 7rem;
+    
+}

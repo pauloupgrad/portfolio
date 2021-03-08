@@ -10,7 +10,8 @@ html{scroll-behavior: smooth;}
     --cinza: #737373;
     --cinza-light: #e6e6e6;
     --cinza-hamburguer: #c0bcbc;
-    --white: #f5f5f5;
+    --white: #FFFFFF;
+    --white-light: #ddd7d7;
     --black: #000;
     --black-light: #222;
     --orange: #ff751a;
@@ -23,4 +24,12 @@ html{scroll-behavior: smooth;}
     --font-secondary: 'Baloo Da 2', sans-serif;
     --font-action: 'Mulish', sans-serif;
     --text-shadow: .2rem .3rem 2px rgba(0,0,0,.4);
+    /* COLOR ICONS CONHECIMENTOS */
+    --html5: #DD6445;
+    --css3: #3595CF;
+    --design: #86C916;
+    --js: #E8D44D;
+    --php: #7377AD;
+    --python:  #386B97;
+
 }

@@ -10,7 +10,7 @@ header{width: 100%;height: 100vh;overflow: hidden;position: relative;}
 .info-banner h1{text-shadow: var(--text-shadow); animation: moveBanner 1s .7s forwards;opacity: 0;}
 .info-banner h1 span{color: var(--roxo-light2);}
 .info-banner h1{color: #fff;margin-bottom: 1rem;}
-.info-banner p{font-family: var(--font-secondary);font-size: 2rem;color: #fff;margin-bottom: 1rem;}
+.info-banner p{font-family: var(--font-secondary);font-size: 2rem;color: #fff;margin:1rem 0 2.5rem 0;}
 .info-banner p{text-shadow: var(--text-shadow); animation: moveBanner 1s 1s forwards;opacity: 0;}
 .btn-gd-roxo{ animation: moveBanner 1s 1.3s forwards;opacity: 0;color: var(--white);background: var(--roxo-gradente);}
 .btn-gd-roxo:hover{box-shadow: 0 0 20px rgba(255,255,255,.4);}
