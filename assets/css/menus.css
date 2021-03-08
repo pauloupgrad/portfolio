@@ -77,12 +77,12 @@
 .sidebar{
     width: 20rem;
     height: 100vh;
-    background-color: var(--white);    
+    background-color: rgba(0, 0, 0, .8);    
     position: fixed;
     top: 0;
     right: -20rem;
     z-index: 90;
-    transition: all 1s;   
+    transition: all 1s;       
 }
 .show-menu .sidebar{
     right: 0;
@@ -100,13 +100,13 @@
 }
 .responsive-menu .menu-link{
     font-family: var(--font-action);
-    color: var(--cinza);
+    color: var(--white);
     font-size: 1.7rem;
     padding: .3rem 0;
     display: block;
 }
 .responsive-menu .menu-link:hover{
-    color: var(--roxo);
+    color: var(--roxo-light);
 }
 .social-media{
     position: absolute;
