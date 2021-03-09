@@ -1,0 +1,31 @@
+.sessao-sobre{    
+    display: block; 
+    padding-bottom: 5rem;  
+}
+.sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    text-align: center;
+}
+.sobre-img-wrapper img{
+    width: 100%;
+    border-radius: 100%;
+    padding: .5rem;
+    background-color: var(--roxo-light2);
+}
+.sobre h2{
+    font-family: var(--font-primary);    
+    font-size: 2.5rem;
+    margin: 2rem 0;
+    color: var(--cinza);
+}
+
+.sobre p{
+    width: 50%;
+    padding-bottom: 2rem;
+    font-family: var(--font-primary);    
+    font-size: 1.3rem;
+    color: var(--cinza);
+}
